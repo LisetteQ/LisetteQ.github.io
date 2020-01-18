@@ -186,6 +186,13 @@
 		letter-spacing: 0;
 	}
 
+	h7 {
+		color: #ffffff;
+		font-size: 2em;
+		letter-spacing: -0.035em;
+
+	}
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -1963,6 +1970,18 @@
 
 		}
 
+		.column {
+		  float: left;
+		  width: 33.33%;
+		}
+
+		/* Clear floats after the columns */
+		.row2:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
 /* Container */
 
 	.container {
@@ -2011,7 +2030,7 @@
 
 		}
 
-/* Container holding the image and the text */
+/* Container holding the image and the text written over it*/
 		.containertext {
 		  position: relative;
 		  text-align: center;
@@ -2372,6 +2391,10 @@
 			text-align: center;
 		}
 
+		.box.special.form{
+			background-color: #66925e;
+		}
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
@@ -2465,7 +2488,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #;
 				color: #ffffff;
 			}
 
@@ -2891,7 +2914,7 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
+			background-color: #66925e;
 			color: #ffffff !important;
 		}
 
@@ -2899,14 +2922,14 @@
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #ecaa96;
+				background-color: #66925e;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #e4886a;
+				background-color: #66925e;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3299,7 +3322,7 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #E2E8DD;
 		padding: 4em 0 6em 0;
 		text-align: center;
 	}
@@ -3368,7 +3391,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #66925e;
 		}
 
 		#cta input[type="text"],
@@ -3939,3 +3962,5 @@
 			}
 
 	}
+	font-family: 'Six Caps', sans-serif;
+	font-family: 'Yellowtail', cursive;
