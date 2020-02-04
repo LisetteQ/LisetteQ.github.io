@@ -15,14 +15,12 @@
 
 			  gtag('config', 'UA-157020522-1');
 			</script>
-		<script language="JavaScript" src="gen_validatorv31.js" type="text/javascript"></script>
-		
+
 		<title>De meiden van ons Toos</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
 		 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body class="is-preload">
@@ -64,7 +62,7 @@
 
 						<!-- Featured Post -->
 							<article class="post featured">
-								<p><span class="image left editable"><img src="images/omaklein.jpg" alt="" /></span class="editable"> Wij zijn een Brabants cateringbedrijf dat veel aandacht heeft voor onze roots, de gast en duurzaamheid.</p>
+								<p><span class="image left editable"><img src="images/omaklein.jpg" alt="" /></span> Wij zijn een Brabants cateringbedrijf dat veel aandacht heeft voor onze roots, de gast en duurzaamheid.</p>
 								<p class="editable">Wij gebruiken naast onze eigen geteelde producten ook producten
 									van lokale ondernemers. Met heerlijk eten en drinken en een gezellige
 									Brabantse sfeer willen we voor iedereen een unieke ervaring creëren.
@@ -150,7 +148,7 @@
 					<footer id="footer">
 						<section>
 							<h3> snel een berichtje sturen </h3>
-							<form method="POST" name="contactform" action="contact-form-handler.php">
+							<form method="post" action="mailto:lisettequirijns@gmail.com?subject=Snel-berichtje" enctype="text/plain">
 								<div class="fields">
 									<div class="field">
 										<label for="naam">Naam</label>
@@ -169,19 +167,6 @@
 									<li><input type="submit" value="Verstuur" /></li>
 								</ul>
 							</form>
-							<script language="JavaScript">
-							// Code for validating the form
-							// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-							// for details
-							var frmvalidator  = new Validator("contactform");
-							frmvalidator.addValidation("name","req","Please provide your name");
-							frmvalidator.addValidation("email","req","Please provide your email");
-							frmvalidator.addValidation("email","email","Please enter a valid email address");
-							</script>
-							<!--
-							Sample code from:
-							http://www.html-form-guide.com/contact-form/php-email-contact-form.html
-							-->
 						</section>
 						<section class="split contact">
 							<section>
